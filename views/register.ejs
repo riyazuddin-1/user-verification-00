@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="data" id="register">
+        <form action="" method="POST" id="login-form">
+            <input type="text" placeholder="Full name" name="name" required><br>
+            <input type="email" placeholder="email" name="email" required><br>
+            <input type="password" placeholder="Password" name="password" required><br>
+            <input type="password" placeholder="Confirm password" name="confirm_password" required><br>
+            <input id="btn" type="submit" value="REGISTER"><br>
+        </form>
+        <hr>
+        <p>Already a user? <a href="/login">login</a></p>
+    </div>
+    <p id="message" style="text-align: center; color: red;"><%= message %></p>
+</body>
+</html>
